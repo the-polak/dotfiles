@@ -5,6 +5,15 @@
 - run w/ `sudo`
 - adds repos
 
+### Update Hostname
+```bash
+sudo hostnamectl set-hostname new-hostname
+
+#display hostname
+hostnamectl
+```
+
+
 ### Web Services
 Sign in to a few services to make later portions of the setup quicker:
 - Twitter

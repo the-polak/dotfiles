@@ -15,14 +15,14 @@ sudo zypper ref && sudo zypper dup
 [https://linuxiac.com/how-to-install-vs-code-on-opensuse-leap-tumbleweed/](https://linuxiac.com/how-to-install-vs-code-on-opensuse-leap-tumbleweed/)
 
 ```bash
+# non oss version
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-
 
 sudo zypper addrepo https://packages.microsoft.com/yumrepos/vscode vscode
 
-
 sudo zypper ref
-
 
 sudo zypper install code
 ```
+
+

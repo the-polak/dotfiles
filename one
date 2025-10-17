@@ -1,1 +1,12 @@
-lol
+# OpenSUSE Post Install
+
+## The basics:
+[https://en.opensuse.org/Portal:Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed)
+- run w/ `sudo`
+
+### Update
+```bash
+sudo zypper ref && sudo zypper dup
+```
+
+

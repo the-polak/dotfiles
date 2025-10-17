@@ -80,7 +80,10 @@ sudo zypper in halloy
 # edit config.toml
 cp ~/.config/halloy/config.toml ~/.config/halloy/config.toml.bak && nano ~/.config/halloy/config.toml
 
-# copy backup
+
+
+####################################
+
 # Halloy config.
 # 10-17-25
 # For a complete list of available options,
@@ -94,6 +97,8 @@ channels = ["#dragonmere","wasted","whuppy"]
 use_tls = false
 port = 6667
 on_connect = ["/list","/join #wasted", "/join #dragonmere"]
+
+####################################
 ````
 
 ### Konversation

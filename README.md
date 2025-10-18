@@ -141,3 +141,13 @@ mumble : mumble.rogueserver.com
 
 ### Install Podman
 [https://www.opensuse.org/](https://www.opensuse.org/)
+
+### Winboat
+[Follow this guide](https://thecybersecguru.com/tutorials/run-windows-apps-on-linux-winboat-guide/)
+
+
+
+
+Download AppImage
+<BR>
+[https://github.com/TibixDev/winboat?tab=readme-ov-file](https://github.com/TibixDev/winboat?tab=readme-ov-file)

@@ -35,6 +35,10 @@ mkdir ~./Applications
 [Download latest Nextcloud Desktop](https://github.com/nextcloud-releases/desktop/releases)
 
 
+
+## Tools
+---
+
 ### Install Alacritty
 ```bash
 # install
@@ -55,7 +59,6 @@ nano ~/.config/alacritty/alacritty.toml
 curl -fsS https://dl.brave.com/install.sh | sh
 ```
 
-
 ### Tailscale
 ```bash
 # https://tailscale.com/kb/1031/install-linux
@@ -64,7 +67,6 @@ curl -fsSL https://tailscale.com/install.sh | sh
 # accept routes
 sudo tailscale up --accept-routes --operator=$USER
 ```
-
 
 ### Install MS VS Code
 [https://linuxiac.com/how-to-install-vs-code-on-opensuse-leap-tumbleweed/](https://linuxiac.com/how-to-install-vs-code-on-opensuse-leap-tumbleweed/)
@@ -81,6 +83,9 @@ sudo zypper install code
 ```
 
 
+## Social / IRC
+
+
 ### Install Halloy
 ```bash
 # IRC client
@@ -88,8 +93,6 @@ sudo zypper in halloy
 
 # edit config.toml
 cp ~/.config/halloy/config.toml ~/.config/halloy/config.toml.bak && nano ~/.config/halloy/config.toml
-
-
 
 ####################################
 
@@ -108,7 +111,8 @@ port = 6667
 on_connect = ["/list","/join #wasted", "/join #dragonmere"]
 
 ####################################
-````
+
+```
 
 ### Konversation
 - Should be preinstalled
@@ -128,3 +132,12 @@ chat interface link https://www.rogueserver.com/wastedmemory
 <br>
 mumble : mumble.rogueserver.com
 
+
+## Virtualization and Containers
+
+### Install Docker and Docker Compose
+[https://en.opensuse.org/Docker](https://en.opensuse.org/Docker)
+- see official OpenSUSE howto
+
+### Install Podman
+[https://www.opensuse.org/](https://www.opensuse.org/)

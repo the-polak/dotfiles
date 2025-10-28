@@ -21,6 +21,8 @@ su - root
 Siduction 7.6.7 through 7.6.9: Updating the System
 
 The following procedure should be followed:
+<BR>
+
 0.  Check for [**Upgrade Warnings**](https://forum.siduction.org/) before proceeding. 
 1. Log out of the desktop environment.
 (This procedure is nowadays only recommended when updating X or the

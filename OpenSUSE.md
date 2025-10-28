@@ -5,6 +5,22 @@
 - run w/ `sudo`
 - adds repos
 
+[OpenSUSE Post-Installation Best-of](https://doc.opensuse.org/documentation/tumbleweed/best_of_post/)
+- official suggestions
+
+```bash
+# Update - OFTEN!
+sudo zypper ref && sudo zypper dup
+
+# Flatpak & Flathub
+sudo zypper in flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# Codecs
+sudo zypper in opi
+opi codecs
+```
+
 ### Update Hostname
 ```bash
 sudo hostnamectl set-hostname new-hostname
@@ -22,11 +38,6 @@ Sign in to a few services to make later portions of the setup quicker:
 - Nextcloud
 - gmail
 - Discord
-
-### Update
-```bash
-sudo zypper ref && sudo zypper dup
-```
 
 ### Create `Applications` directory for AppImages
 ```bash

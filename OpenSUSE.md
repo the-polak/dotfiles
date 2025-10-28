@@ -58,6 +58,9 @@ sudo zypper in alacritty
 # create config directory
 mkdir ~/.config/alacritty/alacritty.toml
 
+#TODO
+Alacritty's config is public, add commands to pull from GH
+
 # create alacritty.toml
 nano ~/.config/alacritty/alacritty.toml
 

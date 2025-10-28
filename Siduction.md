@@ -1,16 +1,16 @@
 # Siduction Post-Install
 
 > [!Note]
-> Apart from a few minor tweaks, Siduction Linux is nearly perfect OOB - at least in my opinion. I've had difficulty pinning down a solid and **current** list of post-install actions for those using Siduction Linux. This is my attempt as of October in the year of our lord, 2025. 
+> Apart from a few minor tweaks, Siduction Linux is nearly perfect OOB - at least in my opinion. 
+> After distro-hopping I tend to return to Siduction as the palette cleanser. After a few weeks/months away, I'll forget how to optimize a fresh install. Some info exists but I've had difficulty pinning down a solid and **current** list of post-install actions for those using Siduction Linux. This is my attempt as of October in the year of our lord, 2025. 
 > 
 > Please refer to the [Siduction Manual](https://manual.siduction.org/index_en.html) before you follow random idiots to damnation. 
 > 
-> *Loosely based on a few forum posts that may or may not be referenced somewhere.* 
 
 
 ## SUDO - doas
 Siduction 7.3 `Doas` - Alternative to `sudo`
-- Siduction devs prefer `doas`. I do not. 
+- Siduction devs prefer `doas` while I do not. 
 ```bash
 # Add your user to SUDO
 su - root
@@ -49,14 +49,56 @@ sudo apt install fonts-crosextra-carlito fonts-crosextra-caladea
 ```
 
 ## KDE
+migrate dotfiles for settings, layout, etc
+taskbar settings
+krunner
+dolphin
+keyboard shortcuts
+konsole 
 
-
+### Kinda KDE
+app shortcuts (tor browser)
 
 
 ## Applications
 
+Brave 
+
+Alacritty
+
+Nextcloud Desktop
+
+Obsidian
+
+Visual Studio Code
+
+Appimagelauncher
+
+Tor Browser
+
+Bambu Studio
+ 
+
+### Apps #TODO
+Tailscale
+
+Signal Desktop
+
+Telegram Desktop
+
+Wine
+
+Winboat
+
+distrobox
+
+OnlyOffice
+- fuck you.
 
 
+## Generic Obsidian Sync featuring nextcloud, dolphin and fstab
+
+TBD
 
 
 

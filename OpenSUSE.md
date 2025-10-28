@@ -1,4 +1,4 @@
-# OpenSUSE Post Install
+# OpenSUSE Post-Install
 
 ## The basics:
 [https://en.opensuse.org/Portal:Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed)

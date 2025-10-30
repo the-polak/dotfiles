@@ -1,11 +1,14 @@
 # Siduction Post-Install
 
 > [!Note]
-> Apart from a few minor tweaks, Siduction Linux is nearly perfect OOB - at least in my opinion. 
-> After distro-hopping I tend to return to Siduction as the palette cleanser. After a few weeks/months away, I'll forget how to optimize a fresh install. Some info exists but I've had difficulty pinning down a solid and **current** list of post-install actions for those using Siduction Linux. This is my attempt as of October in the year of our lord, 2025. 
+> October, in the year of our lord, 2025.
 > 
-> Please refer to the [Siduction Manual](https://manual.siduction.org/index_en.html) before you follow random idiots to damnation. 
-> 
+> After distro-hopping I tend to return to Siduction as the palette cleanser. I often forget how to optimize a fresh install. A bit of "post-install" instruction info exists but I've had difficulty pinning down a solid and **current** list of post-install actions for those using Siduction Linux.  
+>
+> I created this document to aid my distrohopping addiction. It may become abandoned and outdated.
+>
+> Refer to official documentation first.  
+> [Siduction Manual](https://manual.siduction.org/index_en.html)  
 
 
 ## SUDO - doas
@@ -140,6 +143,14 @@ PING 192.168.1.234 (192.168.1.234) 56(84) bytes of data.
 4 packets transmitted, 4 received, 0% packet loss, time 3005ms
 rtt min/avg/max/mdev = 28.485/33.211/37.839/3.594 ms
 ```
+##### Tailscale usage
+After initial install, basic usage:
+
+```bash
+sudo tailscale up
+sudo tailscale down
+```
+For additional instruction: [https://tailscale.com/kb/1348/guides](https://tailscale.com/kb/1348/guides)
 
 #### Signal Desktop
 - [https://signal.org/download/linux/](https://signal.org/download/linux/)

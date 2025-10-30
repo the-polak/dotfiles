@@ -117,6 +117,7 @@ curl -fsSL https://pkgs.tailscale.com/stable/debian/sid.tailscale-keyring.list |
 sudo apt-get update
 sudo apt-get install tailscale
 
+sudo systemctl enable tailscaled # web instructions do not provide this as of 10/30/25. If not enabled, service will need to be started after each reboot. 
 sudo systemctl start tailscaled # web instructions DO NOT provide this as of 10/30/25
 
 sudo tailscale up # no vlans

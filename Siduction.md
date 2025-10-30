@@ -65,7 +65,7 @@ app shortcuts (tor browser)
 #### Brave 
 - [https://brave.com/linux/]https://brave.com/linux/)
 
-Alacritty
+### Alacritty
 ```bash
 sudo zypper in alacritty
 
@@ -75,29 +75,29 @@ nano ~/.config/alacritty/alacritty/alacritty.toml
 # add instructions for config config
 ```
 
-Nextcloud Desktop
+### Nextcloud Desktop
 - [https://nextcloud.com/install/#desktop-files](https://nextcloud.com/install/#desktop-files)
 
-Obsidian
+### Obsidian
 - add obsidian sync using nextcloud how-to
 ```bash
 # flathub
 flatpak install flathub md.obsidian.Obsidian
 ```
 
-Visual Studio Code
+### Visual Studio Code
 - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)   `I know.`
 
-Tor Browser
+### Tor Browser
 [https://www.torproject.org/download/](https://www.torproject.org/download/)
 
-Bambu Studio
+### Bambu Studio
 ```bash
 # flathub
 flatpak install flathub com.bambulab.BambuStudio
 ```
 
-OnlyOffice
+### OnlyOffice
 - .
 
 #### Tailscale

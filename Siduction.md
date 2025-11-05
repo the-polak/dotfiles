@@ -55,6 +55,8 @@ systemctl isolate multi-user.target && exit
 
 
 ## Fonts
+See: [Fonts in Siduction](https://manual.siduction.org/sys-admin-gen_en.html#fonts-in-siduction)
+
 ```bash
 sudo apt install ttf-mscorefonts-installer 
 sudo apt install fonts-crosextra-carlito fonts-crosextra-caladea

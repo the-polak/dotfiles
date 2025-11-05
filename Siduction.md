@@ -1,4 +1,9 @@
-# Siduction Post-Install
+
+# Siduction Pre-Install
+[All your wildest dreams can come true.](https://manual.siduction.org/index_en.html) 
+
+<BR><BR><BR>
+
 
 > [!Note]
 > October, in the year of our lord, 2025.
@@ -8,8 +13,12 @@
 > I created this document to aid my distrohopping addiction. It may become abandoned and outdated.
 >
 > Refer to official documentation first.  
-> [Siduction Manual](https://manual.siduction.org/index_en.html)  
+>[Siduction Manual](https://manual.siduction.org/index_en.html)
+>
+>[A Small APT Cookbook](https://manual.siduction.org/index_en.html)  
 
+
+# Siduction Post-Install
 
 ## SUDO - doas
 Siduction 7.3 `Doas` - Alternative to `sudo`
